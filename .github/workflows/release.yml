@@ -10,7 +10,6 @@ on:
 jobs:
   build_artifact:
     name: Build and upload artifact
-    if: github.repository == 'awslabs/cdk8s'
     runs-on: ubuntu-latest
     container:
       image: jsii/superchain
